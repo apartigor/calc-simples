@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <header class="h1_header">
+      <h1>Calcule</h1>
+    </header>
+    <main>
+        <div id="calc">
+          <div id="op">
+            <input type="number" id="valor1" placeholder="Valor 1">
+            <input type="number" id="valor2" placeholder="Valor 2">
+            <div id="btnop">
+              <button onclick="soma()">+</button>
+              <button onclick="sub()">-</button>
+              <button onclick="mult()">*</button>
+              <button onclick="divisao()">/</button>
+      </div>
+      <label>Resultado: <span id="result">0</span></label>
+    </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
